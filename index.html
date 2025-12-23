@@ -793,12 +793,12 @@
            .project-card:nth-child(1) .project-image { background: url('archsense.jpg') center/cover; }
         */
         .project-image {
-            height: 240px;
-            background: var(--accent-gradient);
+            height: 220px;
+            /* background: var(--accent-gradient); */
             display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 5rem;
+            align-items: flex-end;
+            justify-content: right;
+            font-size: 3rem;
             color: white;
             opacity: 0.95;
             font-weight: 800;
@@ -806,7 +806,13 @@
         }
 
         .project-card:nth-child(1) .project-image {
-    background: url('/archsense.png') center/cover;
+    background: url('archsense.png') center/cover;
+}
+                .project-card:nth-child(2) .project-image {
+    background: url('ecom.png') center/cover;
+}
+                .project-card:nth-child(3) .project-image {
+    background: url('smart.png') center/cover;
 }
         
         .project-card:hover .project-image {
